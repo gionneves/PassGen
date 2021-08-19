@@ -1,13 +1,23 @@
 <script>
+  let name = "Pass-Gen";
 </script>
 
 <main>
- <h1>Hello</h1>
+  <div class="text-center">
+    <h1>Hello {name}</h1>
+  </div>
 </main>
 
 <style lang="scss">
-	h1 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+      color: #343434;
+  }
+
+  .text-center {
 		text-align: center;
-		color: #343434;
 	}
 </style>
